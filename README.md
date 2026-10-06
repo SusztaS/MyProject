@@ -1,1 +1,1 @@
-Script nyelvek
+Suszta Sándor
