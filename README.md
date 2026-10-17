@@ -2,9 +2,8 @@
 
 ## Hallgatói adatok
 
-- Hallgató neve: [Írd ide a neved]
+- Hallgató neve: Suszta Sándor
 - Neptun-kód: wx72tx
-- Monogram: ss
 
 ## Feladat rövid leírása
 
@@ -40,19 +39,6 @@ A program csak a kezdeti sorsolást végzi el. Nem kezeli a mérkőzések eredm�
 - `csv.writer()`: elmenti a sorsolási eredményeket.
 - `random.shuffle()`: véletlenszerű sorrendbe rendezi az adott kategória versenyzőit.
 - `tkinter` és `tkinter.ttk`: létrehozza a grafikus ablakot és a vezérlőelemeket.
-
-## Futtatás PyCharmban
-
-1. Nyisd meg a `KarateSorsolas` mappát PyCharmban.
-2. Ellenőrizd, hogy Python 3 van beállítva projektinterpreterként.
-3. Nyisd meg a `main.py` fájlt.
-4. Indítsd el a fájlt a Run paranccsal.
-5. Válaszd ki a `Competitors.csv` fájlt a **CSV betöltése** gombbal.
-6. Kattints az **Összes kategória kisorsolása** gombra.
-7. Szükség esetén a **Sorsolás mentése CSV-be** gombbal mentsd el az eredményt.
-
-A program a Python standard könyvtárában található modulokat használja, ezért a megadott funkciókhoz nincs szükség külön csomagtelepítésre.
-
 ## Fontos működési szabály
 
 Ha egy kategóriában páratlan a versenyzők száma, egy versenyző pár nélkül marad, és „Pár nélkül / erőnyerő” jelöléssel jelenik meg. Az alkalmazás minden versenyzőt pontosan egyszer vesz figyelembe az adott sorsolásban.
